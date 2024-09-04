@@ -1,0 +1,122 @@
+.bg-02 {
+  padding: 50px 0px;
+  position: relative;
+  overflow: hidden; }
+  .bg-02 .main-team-card {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 20px 0px;
+    position: relative;
+    transition: 0.5s; }
+    .bg-02 .main-team-card .team-setup {
+      margin: 0 0 20px 0;
+      padding: 10px;
+      flex: 1 1 25%;
+      width: 25%;
+      max-width: 25%; }
+      @media screen and (max-width: 375px) {
+        .bg-02 .main-team-card .team-setup {
+          width: 100%;
+          max-width: 100%;
+          flex: 1 1 100%;
+          -webkit-flex-direction: 1 1 100%;
+          -moz-flex-direction: 1 1 100%;
+          -ms-flex-direction: 1 1 100%; } }
+      @media (min-width: 376px) and (max-width: 767.98px) {
+        .bg-02 .main-team-card .team-setup {
+          width: 50%;
+          max-width: 50%;
+          flex: 1 1 50%;
+          -webkit-flex-direction: 1 1 50%;
+          -moz-flex-direction: 1 1 50%;
+          -ms-flex-direction: 1 1 50%; } }
+      .bg-02 .main-team-card .team-setup .team-items {
+        width: 100%;
+        display: block;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+        transition: 0.5s;
+        position: relative; }
+        .bg-02 .main-team-card .team-setup .team-items:hover .team-user-social {
+          opacity: 1;
+          visibility: visible;
+          left: 0;
+          display: block; }
+        .bg-02 .main-team-card .team-setup .team-items:hover .team-user::before {
+          width: 100%;
+          opacity: 1;
+          visibility: visible;
+          display: block; }
+        .bg-02 .main-team-card .team-setup .team-items .team-name {
+          padding: 5px 0px;
+          position: relative;
+          display: block;
+          text-align: center;
+          z-index: 2; }
+          .bg-02 .main-team-card .team-setup .team-items .team-name::before {
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            top: -10px;
+            -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            left: 47%;
+            z-index: 1; }
+          .bg-02 .main-team-card .team-setup .team-items .team-name h2 {
+            font-size: 18px; }
+          .bg-02 .main-team-card .team-setup .team-items .team-name b {
+            font-size: 15px;
+            color: #848484; }
+        .bg-02 .main-team-card .team-setup .team-items .team-user {
+          overflow: hidden;
+          position: relative;
+          transition: 0.5s; }
+          .bg-02 .main-team-card .team-setup .team-items .team-user::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.5s;
+            background: rgba(0, 0, 0, 0.7); }
+        .bg-02 .main-team-card .team-setup .team-items .team-user-social {
+          position: absolute;
+          height: 45px;
+          background: rgba(255, 255, 255, 0.1);
+          width: 100%;
+          padding: 5px 0px;
+          top: 50%;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          left: -100%;
+          opacity: 0;
+          visibility: hidden;
+          transition: 0.5s;
+          display: none; }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .bg-02 .main-team-card .team-setup .team-items .team-user-social {
+              top: 40%; } }
+          .bg-02 .main-team-card .team-setup .team-items .team-user-social ol li {
+            display: inline-block;
+            padding-right: 10px;
+            color: #fff;
+            transition: 0.6s;
+            height: 30px;
+            width: 30px;
+            background: #0c79cf;
+            line-height: 30px;
+            text-align: center;
+            padding: 0px;
+            border-radius: 50px;
+            font-size: 16px;
+            margin-right: 5px; }
+            .bg-02 .main-team-card .team-setup .team-items .team-user-social ol li:hover {
+              color: #0c79cf;
+              transform: translateX(-5px); }
